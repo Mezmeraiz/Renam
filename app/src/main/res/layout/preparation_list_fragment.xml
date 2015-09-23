@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView_list_preparation"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true" />
+
+    <com.mezmeraiz.renam.animation.AutoHideableLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginRight="25dp"
+
+        android:layout_marginBottom="25dp"
+        android:id="@+id/anim_button_preparation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:background="@drawable/add" />
+
+    </com.mezmeraiz.renam.animation.AutoHideableLayout>
+
+
+</RelativeLayout>

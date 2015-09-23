@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название реагента"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:id="@+id/editTextNameEdit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Остаток"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextBalanceEdit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:inputType="number"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Норма"
+                android:id="@+id/textView13"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextNormEdit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:inputType="number"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageViewEditSave"
+                    android:background="@drawable/save"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageViewEditDelete"
+                    android:background="@drawable/delete"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

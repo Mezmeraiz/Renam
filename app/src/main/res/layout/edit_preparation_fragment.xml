@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="340dp"
+                android:id="@+id/listView_edit_reagent"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editText_dimension"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название препарата"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:id="@+id/textView_edit_preparation_name"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="#f9353535" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Объем препарата"
+                android:id="@+id/textViewDimension"
+                android:layout_below="@+id/textView_edit_preparation_name"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_dimension"
+                android:layout_below="@+id/textViewDimension"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView_save_edit_preparation"
+                android:background="@drawable/save"
+                android:layout_below="@+id/listView_edit_reagent"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/editText_dimension"
+                android:layout_toLeftOf="@+id/editText_dimension" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView_add_new_reagent"
+                android:background="@drawable/add"
+                android:layout_below="@+id/listView_edit_reagent"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/editText_dimension"
+                android:layout_toEndOf="@+id/editText_dimension" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView_delete_preparation"
+                android:layout_below="@+id/listView_edit_reagent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/delete" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>

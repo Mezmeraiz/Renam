@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_array">
+        <item>Реагенты</item>
+        <item>Препараты</item>
+
+    </string-array>
+
+    <string name="app_name">Renam</string>
+    <string name="action_settings">Settings</string>
+    <string name="nd_open">NavigationDrawer open</string>
+    <string name="nd_close">NavigationDrawer close</string>
+    <string name="add_reagent">Добавление реагента</string>
+    <string name="edit_reagent">Редактирование реагента</string>
+    <string name="edit_preparation">Редактирование препарата</string>
+    <string name="reagent_saved">Реагент сохранен</string>
+    <string name="reagent_deleted">Реагент удален</string>
+    <string name="new_preparation">Новый препарат</string>
+    <string name="new_reagent">Новый реагент</string>
+    <string name="saved">Сохранено</string>
+    <string name="preparation_list">Список препаратов</string>
+    <string name="deduct_reagents">Списание реагентов</string>
+    <string name="reagents_deducted">Реагенты списаны</string>
+    <string name="reagent_list">Список реагентов</string>
+
+
+</resources>
